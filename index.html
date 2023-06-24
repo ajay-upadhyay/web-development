@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:url" content="https://coderajju.blogspot.com/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Web development tutorial by CoderAjju" />
+  <meta property="og:description" content="Here is Web development tutorial which you can learn in easy way and street forward" />
+  <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmzk74jdGxixtnVP65rw6_vbifSgk6GVUyhA&usqp=CAU" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Web design syllabus</title>
+  <style>
+    * {
+      margin-top: 6px;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0px;
+      background-color: white;
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      
+      margin:0 13px;
+
+    }
+
+    .menu {
+      z-index: 13;
+    }
+
+    .main {
+      padding: 10px 0;
+      display: flex;
+    }
+
+    /* box 1 */
+    .box1 {
+      display: none;
+      position: fixed;
+      z-index: 10;
+      background-color: white;
+      width: 300px;
+      border-right: 5px solid grey;
+    }
+
+    .head-box1 {
+      position: static;
+      padding: 15px 20px;
+      font-size: 26px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .content {
+      width: 293px;
+      height: 600px;
+      overflow: scroll;
+    }
+
+    .content a {
+      text-decoration: none;
+      line-height: 40px;
+      text-align: start;
+      margin-left: 15px;
+      font-size: 18px;
+      color: rgb(100, 99, 99);
+    }
+
+    hr {
+      width: 100%;
+    }
+
+    /* box 2 */
+    .box2 {
+      width: 90%;
+      margin: auto auto;
+    }
+  .container{
+    background-color: antiquewhite;
+  }
+    header {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 10px 0;
+    }
+
+    header {
+      font-size: 20px;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="box1 element">
+      <br />
+      <p class="head-box1">JS Documentation</p>
+      <div class="content">
+        <br />
+        <hr />
+        <a class="nav-link" href="#intro">Web Application</a>
+        <hr />
+        <a class="nav-link" href="#Why_go">Why go on web app</a>
+        <hr />
+        <a class="nav-link" href="#defination">Definition for web app</a>
+        <hr />
+        <a class="nav-link" href="#server">What is a server ?</a>
+        <hr />
+        <a class="nav-link" href="#webpage">What is Webpage</a>
+        <hr />
+        
+        <!-- <a class="nav-link" href="#Dvariable">Declaring Variables</a>
+        <hr />
+        <a class="nav-link" href="#VariableS">Variable Scope</a>
+        <hr />
+        <a class="nav-link" href="#Gvariable">Global Variable</a>
+        <hr />
+        <a class="nav-link" href="#constant">Constant</a>
+        <hr />
+        <a class="nav-link" href="#dtype">Data types</a>
+        <hr />
+        <a class="nav-link" href="#ifelse">if...else statement</a>
+        <hr />
+        <a href="#whileState">While statement</a>
+        <hr />
+        <a href="#function">Function declaration</a>
+        <hr />
+        <a href="#function">Reference</a> -->
+      </div>
+    </div>
+
+    <div class="box2">
+      <nav class="nav">
+        <div class="heading">
+          <h1>CoderAjju</h1>
+          <div onclick="myfunction()" class="menu"><i class="fa-solid fa-bars"></i></div>
+        </div>
+      </nav>
+      <div class="container">
+        <section class="main-section" id="intro">
+          <header>what is a web application ?</header>
+          <article>
+            <p>
+              Imagine you want to use a program or an application on your computer, like a word processor or a game.
+              Usually, you would install that software on your computer and run it from there. But with a web
+              application, things work a bit differently.
+              <br>
+              <br>
+
+              Instead of installing the software on your computer, you access it through a web browser like Google
+              Chrome or Mozilla Firefox. Just like you open a website, you can visit a web application by typing its web
+              address (URL) in the browser's address bar.
+              <br>
+              <br>
+
+              When you visit a web application, it's like entering a virtual space where you can do specific things. It
+              could be anything from writing and editing documents, managing your finances, shopping online, or even
+              socializing with friends.
+              <br>
+              <br>
+
+              Since web applications live on servers, which are powerful computers connected to the internet, you can
+              access and use them from any device with an internet connection. That means you can use the same web
+              application on your computer, phone, or tablet without having to install anything new.
+              <br>
+              <br>
+
+              Web applications can be really simple or very complex, depending on what they do. Some web apps are like
+              basic tools that perform a single task, while others are like entire platforms with lots of features and
+              options.
+              <br>
+              <br>
+
+              The great thing about web applications is that they are available anytime and anywhere, as long as you
+              have an internet connection and a device with a web browser. They are also easier to update because the
+              changes happen on the server side, so you don't need to download and install updates manually.
+              <br>
+
+              Overall, web applications are like programs or tools that you can use online without installing anything,
+              just by visiting a website. They provide all sorts of services and functionalities, and you can access
+              them from different devices wherever you go.
+            </p>
+            <br>
+            <p>
+
+              Features of web application:- <br>
+              i. Multi user application. <br>
+              ii. End user requires internet connection. <br>
+              iii. It should be installed in a web browser. <br>
+              iv. It will have a special user interface(UI) called as webpage.
+            </p>
+            <br>
+            <p>
+              Every web application contains 2 main components
+            <p style="font-weight: 600;">1) Front-End</p>
+            <p style="font-weight: 600;">2) Back-End</p>
+
+            <br>
+            <p style="display:inline-block; font-weight:600;">1)Front-End:&nbsp;</p>It represents what user is seeing on
+            the
+            website
+            We can develop Front-End content by using the following technologies:
+            HTML, JS, CSS, JQuery and BootStrap
+            JQuery and Bootstrap are advanced front-end technologies, which are developed by
+            using HTML, CSS and JavaScript only. <br> <br>
+            <p style="display:inline-block; font-weight:600;">1)Back-End:&nbsp;</p>
+            It is the technology used to decide what to show to the end user on the Front-End.
+            ie Backend is responsible to generate required response to the end user,which is
+            displayed by the Front-End.
+            Back-End has 3 important components:
+            1) The Language like Java, Python etc
+            2) The Framework like DJango, Pyramid, Flask etc.
+            </p>
+          </article>
+        </section>
+
+        <section class="main-section" id="Why_go">
+          <header>Why we will go on web application ?</header>
+          <article>
+            <p>
+              You might want to choose a web application for a few simple reasons:
+              <br> <br>
+            <p style="display:inline-block; font-weight:600;">1) Easy access from anywhere:&nbsp;</p>
+            With a web app, you can use it from any computer, phone, or tablet that has an
+            internet connection. No need to install anything—just open a web browser and go!
+            <br> <br>
+            <p style="display:inline-block; font-weight:600;">2) Works on different devices: &nbsp;</p>
+            It doesn't matter if you have a Windows computer, a Mac, or an Android phone.
+            Web applications are designed to work on all kinds of devices, so you don't have to worry about
+            <br> <br>
+            <p style="display:inline-block; font-weight:600;">3) Save time and money: &nbsp;</p>
+            Building a web app is often cheaper and faster compared to creating separate apps for
+            different platforms. You can reach a wide audience without the need for separate development efforts.
+            <br> <br>
+            <p style="display:inline-block; font-weight:600;">4) Collaborate easily: &nbsp;</p>
+            Web apps are great for teamwork. You and your colleagues can work on the same app at
+            the same time, making changes and seeing updates in real-time. It's like working together in a virtual
+            office!
+            <br> <br>
+            <p style="display:inline-block; font-weight:600;">5) Updates are a breeze:&nbsp;</p>
+            When the creators of a web app make updates or fixes, you don't have to do a thing.
+            The changes happen on their end, so the next time you use the app, it's automatically updated. No need to
+            worry about downloading and installing updates yourself.
+            <br> <br>
+
+            So, if you want an application that's accessible from anywhere, works on different devices, saves you time
+            and money, allows for collaboration, and keeps itself up to date, a web application is the way to go!
+            </p>
+          </article>
+        </section>
+
+        <section class="main-section" id="defination">
+          <header>Definition for web application</header>
+          <article>
+            <p>
+              A web application is a type of software application that is accessed and used over the internet through a
+              web browser. It is designed to provide specific functionalities and services to users, allowing them to
+              interact with and manipulate data through a user interface. Web applications are typically built using web
+              technologies such as HTML, CSS, and JavaScript, and they run on remote servers, providing users with the
+              ability to access and use the application from any device with an internet connection. They are versatile,
+              accessible, and cross-platform, making them popular for various purposes such as e-commerce, social media,
+              online banking, collaboration tools, and more.
+            </p>
+          </article>
+        </section>
+
+        <section class="main-section" id="server">
+          <header>What is a server ?</header>
+          <p>
+            In street view terms, a server in web development is like a big, powerful computer that holds all the information and files needed for a website or web application to work. It's kind of like a storage unit that houses all the stuff you need to run your online business or provide services to people.
+<br> <br>
+When you visit a website or use a web application, your web browser sends a request to the server asking for the information it needs. The server then fetches those files and sends them back to your browser, which displays the website or application on your screen.
+<br> <br>
+Think of it like ordering something online. You place your order on a website, and behind the scenes, the server receives that order, finds the products, and packages them up to be sent to your doorstep.
+<br> <br>
+The server is always on and connected to the internet, so it can receive requests from users at any time. It's responsible for processing those requests, retrieving the necessary data, and sending it back to the users' browsers so they can see and interact with the website or application.
+<br> <br>
+Servers can handle many requests at once, just like a busy restaurant that serves multiple customers at different tables. They have a lot of storage space to hold files, databases to store and manage data, and processing power to handle all the incoming requests efficiently.
+<br> <br>
+In summary, a server in web development is like a powerful computer that stores and delivers the files and data needed to run a website or web application. It's the behind-the-scenes hero that makes sure everything works smoothly when you browse the internet or use online services.
+          </p>
+          
+ <header>what is a client ?</header>
+<p>It is a software program running in a machine by receiving some services from Server.</p> 
+<header>What is webserver ?</header>
+<p>It is one type of server which is connected to web.</p>
+<header>Why a webserver ?</header>
+<p>To host Web applications.</p>
+       
+
+       
+          <header>Why should we host a web application into web server ?</header>
+          <code>
+We host the web application on the web server so that more and more people can use that web app.          </code>
+       
+          <br>
+          <header> what a website will contain ?</header>
+          <p>
+        
+A website is a collection of web pages.
+          </p>
+           </section>
+        <section class="main-section" id="webpage">
+          <header>What is Webpage ?</header>
+          <p>
+            A webpage is a single document or a single page of a website that is accessible through a web browser.   
+          </p>
+           <p>
+          Webpages are primarily built using web technologies such as HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript. HTML provides the structure and content of the page, CSS defines the visual appearance and layout, and JavaScript adds interactivity and functionality.   
+          </p>
+          <p>
+            A webpage can contain various elements such as text, images, videos, links, forms, buttons, and more. 
+          </p>
+          <p>
+            In summary, a webpage is a single document or page within a website that contains content, visuals, and functionality designed to be viewed and interacted with by users through a web browser.
+          </p>
+          <header>Web pages are two types:</header>
+         
+          <p style="display:inline; font-weight:600;">a. Static Web Page: &nbsp;</p>
+          A static webpage is a fixed webpage that displays the same content to all users. The content of a static webpage is pre-defined and does not change based on user interactions or data inputs. These pages are typically created using HTML and CSS and do not require server-side processing. <br>
+          <p style="display:inline; font-weight:600;">b. Dynamic Web Page: &nbsp;</p>
+          A dynamic webpage is a page that can change its content based on user interactions, data inputs, or other external factors. These pages often utilize server-side processing, scripting languages (such as PHP, Python, or JavaScript), and databases to generate and serve content.
+        </section>
+        
+      </div>
+    </div>
+  </div>
+  <footer>
+  </footer>
+</body>
+<script>
+  function myfunction() {
+    let menu = document.getElementsByClassName("box1")[0];
+    if (menu.style.display === "none") {
+      menu.style.display = "block"
+    }
+    else {
+      menu.style.display = "none"
+
+    }
+  }
+
+</script>
+
+</html>
